@@ -103,7 +103,7 @@ function dwwp_list_job_by_location( $atts, $content = null ) {
     if ( $jobs_by_location->max_num_pages > 1  && is_page() ) {
 
     	$display_by_location .= '<nav class="prev-next-posts">';
-    	$display_by_location .= '<div call="nav-pervious">';
+    	$display_by_location .= '<div class="nav-pervious">';
     	$display_by_location .= get_next_posts_link( __( '<span class="meta-nav">&larr;</span> Previous' ), $jobs_by_location->max_num_pages );
     	$display_by_location .= '</div';
     	$display_by_location .= '<div class="next-posts-link">';
